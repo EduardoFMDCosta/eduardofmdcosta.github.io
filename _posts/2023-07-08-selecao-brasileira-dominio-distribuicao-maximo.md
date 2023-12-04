@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[FUTEBOL] Por que pequenos países conseguem formar grandes seleções?"
+title: "Por que pequenos países conseguem formar grandes seleções?"
 date: 2023-07-08
 categories: jekyll blogging
 feature_image: feature-image.jpg
