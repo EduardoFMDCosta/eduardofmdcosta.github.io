@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[FUTEBOL] O casino das apostas esportivas"
+title: "O cassino das apostas esportivas"
 excerpt_separator: <!--more-->
 date: 2023-08-21
 categories: jekyll blogging
