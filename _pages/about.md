@@ -9,7 +9,7 @@ profile:
   image: photo-github.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    blank
+    
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
