@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The big casino of sports betti
+title: The big casino of sports betting
 excerpt_separator: <!--more-->
 date: 2023-08-21
 categories: jekyll blogging
