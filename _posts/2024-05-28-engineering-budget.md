@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How well funded are Brazilian engineering schools?
+title: How do Brazilian engineering schools' budgets compare globally?
 excerpt_separator: <!--more-->
 date: 2024-05-28
 categories: jekyll blogging
