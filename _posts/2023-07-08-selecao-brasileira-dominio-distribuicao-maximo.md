@@ -3,60 +3,57 @@ layout: post
 title: Why can small countries form great national squads?
 date: 2023-07-08
 categories: jekyll blogging
-description: a hypothetical argument
+description: a hypothetical (probabilistic) argument
 related_posts: false
 ---
 
-09/12/2022: A Croácia elimina o Brasil nas quartas de final da Copa do Mundo. Além da indignação de ver Vinicius Junior, o jogador mais decisivo do time na competição, ser substituído na metade da segunda etapa, outra questão atormenta o meu grande (e genial) amigo Pedro Augusto B. - que possivelmente contribuirá com um post nesse blog sobre números complexos, os detalhes contratuais ainda estão sendo costurados: **como pode o Brasil (~210 milhões de habitantes) perder para a seleção de um país tão pequeno como a Croácia (~4 milhões)?**
+09/12/2022: Croatia eliminates Brazil in the quarterfinals of the World Cup. Besides the indignation of seeing Vinicius Junior, the most decisive player on the team, being substituted halfway through the second half, I wonder whether another issue torments the general public: **how can Brazil, a country with a population of ~210 million people, lose (again) against such a small country (population-wise) like Croatia (~4 million)?**
 
-De fato, Uruguai, Chile, Portugal, Holanda, Croácia, entre vários outros pequenos países, são capazes de produzir sucessivas gerações tecnicamente comparáveis às de nações mais populosas, como Brasil, Alemanha e França.
+Indeed, Uruguay, Chile, Portugal, the Netherlands, Croatia, among several other small countries, are capable of producing successive generations that are technically comparable to those of more populous nations such as Brazil, Germany, and France.
 
-Naturalmente, essa discussão demanda uma análise multidimensional. Evidentemente, não basta ser grande, mas é necessário que o esporte seja praticado em larga escala e que existam mecanismos de busca de talentos. China e Índia, por exemplo, são países em que tais condições não parecem ser satisfeitas. Além disso, existe um mínimo de estrutura imprescindível - especialmente treinadores, campos e campeonatos - para o desenvolvimento técnico e tático dos atletas. América do Sul e Europa parecem oferecer tal estrutura de formação.
+Naturally, this discussion demands a multidimensional analysis. Evidently, it is not enough to be large; it is necessary that the sport is practiced on a large scale and that there are mechanisms for talent scouting. Furthermore, there is a minimum level of essential infrastructure - especially coaches, fields, and youth championships - for the technical and tactical development of athletes. South America and Europe seem to offer such a developmental structure.
 
-Vamos nos restringir a países em que o futebol é um componente cultural importante. Voltemos para a pergunta central do artigo. A explicação que proponho a seguir nada mais é do que um argumento probabilístico baseado em algumas hipóteses que serão enunciadas. Mais importante, não acredito que haja uma maneira simples de testar a validade dessas hipóteses. Em outras palavras, o que ofereço aqui é uma forma de pensar sobre o problema, ao invés de uma solução definitiva (uma conclusão que o leitor mais cético certamente já teria em mente).
+Let us restrict ourselves to countries where football is an important cultural component. Let's return to the central question of the article. The explanation I propose next is nothing more than a probabilistic argument based on some hypotheses that will be stated. More importantly, I do not believe there is a simple way to test the validity of these hypotheses. In other words, what I offer here is a way to think about the problem, rather than a definitive solution (a conclusion that the more skeptical reader would certainly already have in mind).
 
-Vamos em frente.
+Let's move forward.
 
-Um país é capaz de formar $$n$$ equipes para jogar uma partida de futebol e a seleção nacional é definida como a melhor dentre elas. Suponha que sejamos capazes de definir uma quantidade $$H$$ que mede o nível técnico futebolístico de um time (que chamaremos vagamente de habilidade). A habilidade da população (no sentido estatístico) é distribuída de acordo com uma distribuição de probabilidade desconhecida ($$H \sim F_H$$) e as $n$ equipes que o país é capaz de formar com seu povo formam uma amostra aleatória $$\lbrace H_1, ..., H_n \rbrace$$ onde cada $$H_i$$ é uma cópia independente de $$H$$.
+A country is capable of forming $$n$$ teams to play a football match, and the national team is defined as the best among them. Suppose we are able to define a quantity $$H$$ that measures the technical level of a team (which we will vaguely call *skill*). The skill of the population (in the statistical sense) is distributed according to an unknown probability distribution ($$H \sim F_H$$), and the $n$ teams that the country is capable of forming with its people constitute a random sample $$\lbrace H_1, ..., H_n \rbrace$$ where each $$H_i$$ is an independent copy of $$H$$.
 
-Pois bem, enunciemos agora uma forte hipótese: suponhamos que esta habilidade esteja confinada a um intervalo finito $$H \in [0, c]$$, ou seja, existe uma habilidade máxima que nenhum time pode superar - que será representada pelo $$c$$ em homenagem ao [Cruzeiro de 2003][cruzeiro_2003], que foi provavelmente a única equipe na história do futebol a atingi-la. Proponho entendermos esse limite máximo de habilidade como derivado de restrições físicas humanas, afinal há, a priori, limitações de quão rápido podemos correr ou reagir, por exemplo.
+Now, let's state a restrictive hypothesis: suppose that this skill is confined to a finite interval $$H \in [0, c]$$, that is, there is a maximum skill that no team can surpass - which will be represented by $$c$$ in honor of [Cruzeiro de 2003][cruzeiro_2003], which was probably the only team in the history of football to reach it. I propose we understand this maximum skill bound as derived from human physical constraints, after all, there are, a priori, limitations on how fast we can run or react, for example.
 
-Com essa descrição, a habilidade da seleção pode ser definida como a variável aleatória $$H_S = \max \lbrace H_1, ..., H_n \rbrace$$. A questão agora é: como se distribui $H_S$? Para isso, tomaremos um número $$\epsilon$$ pequeno e calcularemos $$\mathbb{P}(H_S \geq c - \epsilon)$$, o que nos permitirá ter uma ideia de como se comporta a probabilidade de que a seleção nacional se aproxime da habilidade máxima para $n$ suficientemente grande.
+With this description, the skill of the national team can be defined as the random variable $$H_S = \max \lbrace H_1, ..., H_n \rbrace$$.The question now is: how is $H_S$ distributed? For this, we will take a small number $$\epsilon$$ and compute $$\mathbb{P}(H_S \geq c - \epsilon)$$, which will allow us to get an idea of how the probability that the national team approaches the maximum skill behaves for sufficiently large $n$.
 
-Ora,
+We have:
 
 $$
 \begin{aligned}
  \mathbb{P}(H_S \geq c - \epsilon) 
   & = \mathbb{P}(\max \lbrace H_1, ..., H_n \rbrace \geq c - \epsilon) \\ 
-  & = 1 - \mathbb{P}(\max \lbrace H_1, ..., H_n \rbrace < c - \epsilon) && \text{(por complementaridade)}  \\
-  & = 1 - \mathbb{P}(H_1 < c - \epsilon, ..., H_n < c - \epsilon) && \text{(o evento máximo ser menor é equivalente a todos serem menores)}  \\
-  & = 1 - \prod_{i=1}^{n} \mathbb{P}(H_i < c - \epsilon) && \text{(pela independência dos eventos)}  \\
-  & = 1 - \prod_{i=1}^{n} F_H(c - \epsilon) && \text{(todas as v.a.s da amostra aleatória seguem a mesma distribuição de $H$)}  \\
+  & = 1 - \mathbb{P}(\max \lbrace H_1, ..., H_n \rbrace < c - \epsilon) && \text{(by complementarity)}  \\
+  & = 1 - \mathbb{P}(H_1 < c - \epsilon, ..., H_n < c - \epsilon) && \text{(max being smaller is equivalent to all being smaller)}  \\
+  & = 1 - \prod_{i=1}^{n} \mathbb{P}(H_i < c - \epsilon) && \text{(independence)}  \\
+  & = 1 - \prod_{i=1}^{n} F_H(c - \epsilon) && \text{(identically distributed)}  \\
   & = 1 - F_H(c - \epsilon)^n \\
 \end{aligned}
 $$
 
-Note que para qualquer $$\epsilon > 0$$, mesmo que pequeno, $$F_H(c - \epsilon) < 1$$, pois a função de probabilidade acumulada só atingirá o valor 1 em $$c$$. Nesse caso,
+Note that for any $$\epsilon > 0$$, even if very small, $$F_H(c - \epsilon) < 1$$, since the cumulative distribution function will only reach the value 1 at $$c$$. In this case,
 
 $$
 F_H(c - \epsilon) < 1 \implies F_H(c - \epsilon)^n \xrightarrow[n \to \infty]{} 0
 $$
 
-Portanto, para todo $$\epsilon > 0$$,
+Therefore, for all $$\epsilon > 0$$,
 
 $$
 \mathbb{P}(H_S \geq c - \epsilon) \xrightarrow[n \to \infty]{} 1
 $$
 
-Em outras palavras, a probabilidade de que a seleção nacional apresente uma habilidade arbitrariamente próxima do limite máximo converge para 1 a medida em que o tamanho da população (ou mais precisamente, do número de equipes que ela é capaz de formar) aumenta. Não temos, no entanto, a velocidade dessa convergência. Conjecturo, porém, que ela seja rápida o suficiente para que um $n$ na ordem de grandeza de centenas de milhares ou milhões seja suficiente para uma aproximação bastante razoável de $c$ para a maior parte das distribuições conhecidas (possivelmente teríamos que adicionar algumas restrições sobre a variância, mas deixaremos isso de lado no momento).
+In other words, the probability that the national team exhibits a skill arbitrarily close to the maximum limit converges to 1 as the population size (or more precisely, the number of teams it is capable of forming) increases. However, we do not have the speed of this convergence. I conjecture, however, that it is fast enough that an $n$ on the order of hundreds of thousands or millions is sufficient for a quite reasonable approximation of $c$ for most known distributions (we might possibly have to add some restrictions on variance, but we will leave that aside for now).
 
-O interessante é que o fenômeno aqui descrito não depende da forma exata da distribuição de habilidade para um país. Parece-me razoável supor que $$H_{\text{Brasil}}$$ seja uma v.a. com média maior que $$H_{\text{Bélgica}}$$, por exemplo, e com uma distribuição mais concentrada em níveis de habilidade maiores que a belga. No entanto, a seleção nacional não é ditada pela média da habilidade de um país, mas pelo seu máximo. E supondo que exista este limite máximo de habilidade, uma população futebolisticamente ativa com alguns milhões de habitantes seria suficiente para encontrar 11 jogadores extremamente competitivos com o nível internacional, conforme sugere a equação 2.
+The interesting thing is that the phenomenon described here does not depend on the exact shape of the skill distribution for a country. It seems reasonable to assume that $$H_{\text{Brazil}}$$ is a random variable with a higher mean than, say, Belgium $$H_{\text{Belgium}}$$, and with a distribution more concentrated at higher skill levels. However, the national team is not dictated by the average skill of a country, but by its maximum. And assuming this maximum skill limit exists, a football-active population with a few million inhabitants would be sufficient to find 11 extremely competitive players at the international level, as suggested by equation 2.
 
-Assim, tudo indica que teremos que continuar nos preocupando com as seleções de pequenos países da Africa, América do Sul e Europa. Além disso, sob a premissa do futebol continuar se desenvolvendo em países asiáticos e nos Estados Unidos, é possível que surjam novas seleções poderosas. Na minha visão, o Brasil deveria se preparar para perder ainda mais seu destaque esportivo relativo no cenário futebolístico internacional, mas pensar em como manter seu poder institucional e sua imagem do jogo bonito.   
-
-
-Por hoje é só. Até breve!
+Thus, it seems we will have to continue worrying about the national squads from small countries in Africa, South America, and Europe. Moreover, under the premise that football continues to develop in Asian countries and the United States, new powerful teams may emerge. In my view, Brazil should prepare to lose even more of its relative prominence in the international football scene but think about how to maintain its institutional power and image of *joga bonito*.
 
 [cruzeiro_2003]: https://en.wikipedia.org/wiki/2003_Campeonato_Brasileiro_S%C3%A9rie_A
 
