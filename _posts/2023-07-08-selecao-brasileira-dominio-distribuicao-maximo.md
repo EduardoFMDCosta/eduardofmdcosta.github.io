@@ -21,7 +21,7 @@ A country is capable of forming $$n$$ teams to play a football match, and the na
 
 Now, let's state a restrictive hypothesis: suppose that this skill is confined to a finite interval $$H \in [0, c]$$, that is, there is a maximum skill that no team can surpass - which will be represented by $$c$$ in honor of [Cruzeiro (2003)][cruzeiro_2003], which was probably the only team in the history of football to reach it. I propose we understand this maximum skill bound as derived from human physical constraints, after all, there are, a priori, limitations on how fast we can run or react, for example.
 
-With this description, the skill of the national team can be defined as the random variable $$H_S = \max \lbrace H_1, ..., H_n \rbrace$$.The question now is: how is $H_S$ distributed? For this, we will take a small number $$\epsilon$$ and compute $$\mathbb{P}(H_S \geq c - \epsilon)$$, which will allow us to get an idea of how the probability that the national team approaches the maximum skill behaves for sufficiently large $n$.
+With this description, the skill of the national team can be defined as the random variable $$H_S = \max \lbrace H_1, ..., H_n \rbrace$$. The question now is: how is $$H_S$$ distributed? For this, we will take a small number $$\epsilon$$ and compute $$\mathbb{P}(H_S \geq c - \epsilon)$$, which will allow us to get an idea of how the probability that the national team approaches the maximum skill behaves for sufficiently large $n$.
 
 We have:
 
