@@ -5,4 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Worked as a reviewer for [ECAI 2024][https://www.ecai2024.eu/committees/additional-reviewers]. Great conference ahead!
+Worked as a reviewer for [ECAI 2024][ecai]. Great conference ahead!
+
+[ecai]: https://www.ecai2024.eu/committees/additional-reviewers
