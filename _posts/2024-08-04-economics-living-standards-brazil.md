@@ -23,7 +23,7 @@ One should not miss the fact that our rough estimates are very sensitive to one 
 
 This analysis reinforces the idea that economic growth alone will not be enough to alter the social reality of Brazil, and redistribution mechanisms (e.g. tax system, social programs, etc) seem to be of equal importance. 
 
-* *I am not a specialist in the definition of the GDP (far from it actually), but I wonder whether we should adjust to the fact that the [labor share of the GDP][labor-share] is historically close to 65%, or if this is somewhat already encoded in the figures above. If indeed this adjustment is fair, then the correct value for the additional needed income would be R$14.5 trillion/0.65 = R$22 trillion.*
+**I am not a specialist in the definition of the GDP (far from it actually), but I wonder whether we should adjust to the fact that the [labor share of the GDP][labor-share] is historically close to 65%, or if this is somewhat already encoded in the figures above. If indeed this adjustment is fair, then the correct value for the additional needed income would be R$14.5 trillion/0.65 = R$22 trillion.*
 
 
 
