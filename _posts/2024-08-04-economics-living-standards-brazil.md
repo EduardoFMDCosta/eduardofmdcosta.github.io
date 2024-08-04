@@ -11,7 +11,7 @@ This article is inspired by an [interview given by the Brazilian economist Eduar
 
 <!--more-->
 
-First, we notice that half of the Brazilian population (approximately 110 million people) live with an [average monthly income per capita of R$540][income-bottom-50]. This means that the average household (roughly 3 people) receives around R$1.600 per month, or only ~20% above one minimum wage. As a reference: the [average rent][rent] for a $50m^2$ apartment in Sao Paulo (Brazil’s largest city) is R$2.650, and in Fortaleza (the cheapest capital for which data was available in the news) is R$1.450. It is absolutely clear that the bottom-50%’s monthly income is not enough to provide a decent basic living standard in urban areas.
+First, we notice that half of the Brazilian population (approximately 110 million people) live with an [average monthly income per capita of R$540][income-bottom-50]. This means that the average household (roughly 3 people) receives around R$1.600 per month, or only ~20% above one minimum wage. As a reference: the [average rent][rent] for a $$50m^2$$ apartment in Sao Paulo (Brazil’s largest city) is R$2.650, and in Fortaleza (the cheapest capital for which data was available in the news) is R$1.450. It is absolutely clear that the bottom-50%’s monthly income is not enough to provide a decent basic living standard in urban areas.
 
 Defining a lower bound for a decent monthly income is a difficult task, however let’s consider for now [Dieese’s estimate of around R$1.650 per capita][dieese]. This implies that each person in the bottom-50% would have to increase their income in approximately R$1.100 in current terms (i.e. from R$540 to R$1.650).
 
