@@ -33,7 +33,7 @@ k_{\text{event}}-1 & \text{if the event occurs } (\text{w/ probability } p_{\tex
 \end{cases}
 $$
 
-Então,
+Therefore,
 
 $$
 \mathbb{E}(R) = (k_{\text{event}}-1)p_{\text{event}} + (-1)(1-p_{\text{event}}) = 0 \implies p_{\text{event}} = \frac{1}{k_{\text{event}}}
