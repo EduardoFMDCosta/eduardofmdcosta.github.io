@@ -11,15 +11,15 @@ This article is inspired by an [interview given by the Brazilian economist Eduar
 
 <!--more-->
 
-First, we notice that half of the Brazilian population (approximately 110 million people) live with an [average monthly income per capita of R$540][income-bottom-50]. This means that the average household (roughly 3 people) receives around R$1.600 per month, or only ~20% above one minimum wage. As a reference: the [average rent][rent] for a $$50m^2$$ apartment in Sao Paulo (Brazil’s largest city) is R$2.650, and in Fortaleza (the cheapest capital for which data was available in the news) is R$1.450. It is absolutely clear that the bottom-50%’s monthly income is not enough to provide a decent basic living standard in urban areas.
+First, we notice that half of the Brazilian population (approximately 110 million people) live with an [average monthly income per capita of R$540][income-bottom-50]. This means that the average household (roughly 3 people) receives around R$1.600 per month, or only ~20% above one minimum wage (as of 2024). As a reference: the [average rent][rent] for a $$50m^2$$ apartment in Sao Paulo (Brazil’s largest city) is R$2.650, and in Fortaleza (the cheapest capital for which data was available in the news) is R$1.450. It is absolutely clear that the bottom-50%’s monthly income is not enough to provide a decent basic living standard in urban areas.
 
-Defining a lower bound for an adequate monthly income is a difficult task, however let’s consider for now [Dieese’s estimate of around R$1.650 per capita][dieese]. This implies that each person in the bottom-50% would have to increase their income in approximately R$1.100 in current terms (i.e. from R$540 to R$1.650).
+Defining a lower bound for an adequate monthly income is a difficult task, however, let’s consider for now [Dieese’s estimate of around R$1.650 per capita][dieese]. This implies that each person in the bottom-50% would have to increase their income by approximately R$1.100 in current terms (i.e. from R$540 to R$1.650).
 
 Hence we would need an aggregate additional income of R$1.100/person x 110 million people = R$121 billion per month. In a year, R$121 billion/month x 12 months = R$1.45 trillion. We have an issue though: according to the [World Inequality Database][wid-brazil], Brazil’s bottom-50%’s share in the national income is historically around 10%, which means that in order to generate R$1.45 trillion for this part of the population, the whole economy would need an income injection of R$1.45 trillion/0.10 = R$14.5 trillion. [Brazil’s GDP][gdp-brazil] in 2023 was R$11 trillion. In order words, we would need to more than double the size of our economy* so that the bottom-50% would meet the *lower-bound* of the basic income. 
 
-In the last 10 years, [Brazil’s GDP has grown][gdp-growth-brazil] approximately 1.1% per year. At this rate, obtaining the desired GDP would take almost 80 years. As people usually have children between 20-30 years of age, we are talking about 2-3 generations living below decent standards for half of our population. This is simply unacceptable. 
+In the last 20 years, [Brazil’s GDP per capita has grown][gdp-per-capita-growth-brazil] approximately 1.3% per year in real terms. At this rate, obtaining the desired GDP would take 65 years. As people usually have children between 20-30 years of age, we are talking about 2-3 generations living below decent standards for half of our population. This is unacceptable. 
 
-One should not miss the fact that our rough estimates are very sensitive to one particular piece of data: the small share (10%) of the national income that goes to the 50% poorest households. Suppose that this share was actually 20% (as [in France][wid-france]). Then, the needed additional annual income would be R$7.2 trillion (much lower than the previous R$14.5 trillion), which could be reached in 45 years (vs 77 before) under the same assumptions.
+One should not miss the fact that our rough estimates are very sensitive to one particular piece of data: the small share (10%) of the national income that goes to the 50% poorest households. Suppose that this share was actually 20% (as [in France][wid-france]). Then, the needed additional annual income would be R$7.2 trillion (much lower than the previous R$14.5 trillion), which could be reached in 39 years (vs 65 before) under the same assumptions.
 
 This analysis reinforces the idea that economic growth alone will not be enough to alter the social reality of Brazil, and income redistribution mechanisms (e.g. tax system, social programs, etc) are equally important. 
 
@@ -35,6 +35,7 @@ This analysis reinforces the idea that economic growth alone will not be enough 
 [gdp-brazil]: https://www.ibge.gov.br/explica/pib.php
 [labor-share]: https://ourworldindata.org/grapher/labor-share-of-gdp
 [gdp-growth-brazil]: https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9300-contas-nacionais-trimestrais.html?=&t=series-historicas&utm_source=landing&utm_medium=explica&utm_campaign=pib#evolucao-taxa
+[gdp-per-capita-growth-brazil]: https://odsbrasil.gov.br/objetivo8/indicador811
 
 
 
