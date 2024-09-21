@@ -110,7 +110,7 @@ Moreover, in the reasoning above, we fixed the odds and assumed the house could 
    
 5) **Is it possible to beat the market (i.e., consistently achieve positive returns)?**
 
-This is highly unlikely. Outperforming the platforms' predictive models is extremely hard and, even in the unlikely scenario where you find one, betting houses seem to be able to hinder some strategies as soon as they are proven capable of consistently generating positive returns (as showed in [this paper][paper]).
+This is highly unlikely. Outperforming the platforms' predictive models is extremely hard and, even in the unlikely scenario where you find a way, betting houses seem to be able to hinder some strategies as soon as they are proven capable of consistently generating positive returns (as showed in [this paper][paper]).
 
 Your football club is sponsored by a betting company, not by your neighbor. So my recommendation is to always remember who is really making the money in this activity before falling into the illusion of getting rich quickly.
 
