@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Waiting Game: Why winning a World Cup takes time
+title: The Waiting Game - Why winning a World Cup takes time
 excerpt_separator: <!--more-->
 date: 2024-09-21
 categories: jekyll blogging
