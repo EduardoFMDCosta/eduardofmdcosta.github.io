@@ -16,7 +16,7 @@ But what is behind the interest of so many agents in mediating sports bets? What
 
 1) **Explaining the odds**
 
-For the standard bets, the house sets odds for the home team, the away team, and a draw. For example, suppose the odds for a draw are 2.5. If the game ends in a draw, for every R$1 placed on this result, the bettor will receive R$2.50 (yielding a return of R$1.50, as the initial R$1 is part of the payout).
+For the standard bets, for each game, the house sets odds for a home team win, an away team win, and a draw. For example, let's imagine that Real Madrid will face Barcelona, and a betting platform has set the following odds for each result: 2.5 if Real Madrid wins, 3.0 if Barcelona wins, and 1.5 if the match ends in a draw. If one bets R$1 in a Real Madrid win, one will receive R$2.5 if this indeed happens (yielding to a return of R$1.5, as the initial R$1 is part of the payout), and will lose the initial R$1 if any other result takes place. In other words, the bottom line for this bettor is either a profit of R$1.5 if Real Madrid wins, or a loss of R$1 else. Analogously, betting on Barcelona yields to a return of +R$2.0 (Barcelona wins) or -R$1 (else), and on a draw leads to +R$0.5 if this takes place, or again -R$1 else.
 
 2) **Why can $$\frac{1}{\text{odds}}$$ represent the probability of the event?**
 
