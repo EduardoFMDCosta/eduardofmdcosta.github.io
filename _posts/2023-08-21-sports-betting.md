@@ -71,7 +71,7 @@ $$
 V_{\text{Home}} + V_{\text{Away}} - (k_{\text{Draw}}-1)V_{\text{Draw}}
 $$
 
-For the betting house to profit in any scenario, all three expressions must be positive.
+For the betting house to profit in any scenario, all three expressions must be positive. Assuming $$k_i > 1$$ (which is always the case, as otherwise the bettor is guaranteed to lose money):
 
 $$
 \begin{cases}
@@ -79,7 +79,7 @@ V_{\text{Away}} + V_{\text{Draw}} - (k_{\text{Home}}-1)V_{\text{Home}} > 0  \\
 V_{\text{Home}} + V_{\text{Draw}} - (k_{\text{Away}}-1)V_{\text{Away}} > 0 \\
 V_{\text{Home}} + V_{\text{Away}} - (k_{\text{Draw}}-1)V_{\text{Draw}} > 0
 \end{cases}
-\implies 
+\iff 
 \begin{cases}
 V_{\text{Home}} < \frac{V_{\text{Away}} + V_{\text{Draw}}}{k_{\text{Home}}-1}  \\
 V_{\text{Away}} < \frac{V_{\text{Home}} + V_{\text{Draw}}}{k_{\text{Away}}-1} \\
@@ -90,7 +90,7 @@ $$
 Let $$V$$ be the total financial volume of bets for that match, i.e., $$V = V_{\text{Home}} + V_{\text{Away}} + V_{\text{Draw}}$$. The previous inequalities can be rewritten as (remembering that $$k_{i} = \frac{1}{p_i}$$):
 
 $$
-V_{i} < \frac{V - V_{i}}{k_{i} - 1} \implies V_{i}k_{i} < V \implies V_{i} < \frac{V}{k_{i}} \implies V_{i} < p_{i}V
+V_{i} < \frac{V - V_{i}}{k_{i} - 1} \iff V_{i}k_{i} < V \implies V_{i} < \frac{V}{k_{i}} \iff V_{i} < p_{i}V
 $$
 
 Thus, given a set of odds, we need to find $$V_{\text{Home}}$$, $$V_{\text{Away}}$$ e $$V_{\text{Draw}}$$ such that:
