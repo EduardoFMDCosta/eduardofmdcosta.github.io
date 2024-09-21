@@ -90,7 +90,7 @@ $$
 Let $$V$$ be the total financial volume of bets for that match, i.e., $$V = V_{\text{Home}} + V_{\text{Away}} + V_{\text{Draw}}$$. The previous inequalities can be rewritten as (remembering that $$k_{i} = \frac{1}{p_i}$$):
 
 $$
-V_{i} < \frac{V - V_{i}}{k_{i} - 1} \iff V_{i}k_{i} < V \implies V_{i} < \frac{V}{k_{i}} \iff V_{i} < p_{i}V
+V_{i} < \frac{V - V_{i}}{k_{i} - 1} \iff V_{i}k_{i} < V \iff V_{i} < \frac{V}{k_{i}} \iff V_{i} < p_{i}V
 $$
 
 Thus, given a set of odds, we need to find $$V_{\text{Home}}$$, $$V_{\text{Away}}$$ e $$V_{\text{Draw}}$$ such that:
