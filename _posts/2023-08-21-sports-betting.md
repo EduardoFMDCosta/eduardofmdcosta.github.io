@@ -8,11 +8,9 @@ description: sports betting in Brazil
 related_posts: false
 ---
 
-The sports betting houses have [taken over Brazilian football][clubes-aposta] in recent years. Their brands seem ubiquitous: advertising on TV and the internet, sponsorships on uniforms, billboards. Interestingly, until very recently, these companies benefited from regulatory and tax loopholes that provided additional incentives for the proliferation of their activity - a situation that should be (at least partially) addressed with an [executive order by Minister Haddad][mp].
+The sports betting houses have [taken over Brazilian football][clubes-aposta] in recent years. Their brands seem ubiquitous: advertising on TV and the internet, sponsorships on uniforms, and billboards. Interestingly, until very recently, these companies benefited from regulatory and tax loopholes that provided additional incentives for the proliferation of their activity - a situation that should be (at least partially) addressed with an [executive order by Minister Haddad][mp].
 
 <!--more-->
-
-Mas o que está por trás do interesse de tantos agentes em mediar apostas esportivas? Quais são os fundamentos da lucratividade dessa atividade? Apesar de nunca ter apostado em resultados esportivos (com exceção de uma pizza que tive de pagar para meu grande amigo Artur S. após a vitória da Itália na Eurocopa de 2020), pretendo apresentar algumas reflexões sobre a matemática das apostas.
 
 But what is behind the interest of so many agents in mediating sports bets? What are the fundamentals of the profitability of this activity? In this article, I intend to present some reflections on the mathematics and economics of sports betting. Although I am using the term *sports*, I should add that I will focus on football betting. Additionally, I will discuss the "standard" bets (i.e. betting on who won the match) - which I assume to account for most of the money spent on those platforms.
 
@@ -24,7 +22,7 @@ For the standard bets, the house sets odds for the home team, the away team, and
 
 In our previous example, many sites will indicate that the probability of a draw implied by the odds of 2.5 is $$\frac{1}{2.5} = 40\%$$.  But how is this calculation justified?
 
-My current understading is that this comes from a *perfect competition* argument. In a perfectly competitive market among betting houses, the odds should be set such that the expected return for the bettor is zero (if the presented odds implied positive expected returns, the house would lose money in the long run; if negative, other houses could offer better odds and capture market share).
+My current understanding is that this comes from a *perfect competition* argument. In a perfectly competitive market among betting houses, the odds should be set such that the expected return for the bettor is zero (if the presented odds implied positive expected returns, the house would lose money in the long run; if negative, other houses could offer better odds and capture market share).
 
 Let $$R$$ be the random variable representing the return of the bettor for each R$1 bet, and $k_{\text{event}}$ be the odds for a particular event (e.g., home team victory).
 
@@ -114,7 +112,7 @@ Moreover, in the reasoning above, we fixed the odds and assumed the house could 
 
 This is highly unlikely. Outperforming the platforms' predictive models is extremely hard and, even in the unlikely scenario where you find one, betting houses seem to be able to hinder some strategies as soon as they are proven capable of consistently generating positive returns (as showed in [this paper][paper]).
 
-Your football club is sponsored by a betting company, not by your neighboor. So my recommendation is to always remember who is really making the money in this activity before falling into the illusion of getting rich quickly.
+Your football club is sponsored by a betting company, not by your neighbor. So my recommendation is to always remember who is really making the money in this activity before falling into the illusion of getting rich quickly.
 
 
 [clubes-aposta]: https://www.uol.com.br/esporte/futebol/ultimas-noticias/2023/03/31/patrocinios-de-sites-de-apostas-a-clubes-da-serie-a-batem-r-330-mi-por-ano.htm
