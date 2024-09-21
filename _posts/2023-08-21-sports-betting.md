@@ -20,7 +20,7 @@ For the standard bets, for each game, the house sets odds for a home team win, a
 
 2) **Why can $$\frac{1}{\text{odds}}$$ represent the probability of the event?**
 
-In our previous example, many sites will indicate that the probability of a draw implied by the odds of 2.5 is $$\frac{1}{2.5} = 40\%$$.  But how is this calculation justified?
+In our previous example, many sites will indicate that the probability of a draw implied by the odds of 1.5 is $$\frac{1}{1.5} \approx 67\%$$.  But how is this calculation justified?
 
 My current understanding is that this comes from a *perfect competition* argument. In a perfectly competitive market among betting houses, the odds should be set such that the expected return for the bettor is zero (if the presented odds implied positive expected returns, the house would lose money in the long run; if negative, other houses could offer better odds and capture market share).
 
