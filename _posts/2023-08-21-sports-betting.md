@@ -8,96 +8,94 @@ description: sports betting in Brazil
 related_posts: false
 ---
 
-As casas de aposta esportiva [dominaram o futebol brasileiro][clubes-aposta] nos últimos anos. Suas marcas parecem onipresentes: publicidade em TV e internet, patrocínios estampados em uniformes, outdoors. Curiosamente, até há pouquíssimo tempo, estas empresas ainda gozavam de lacunas tributária e regulatória que criavam incentivos adicionais à proliferação da atividade - situação que deve ser resolvida com uma [recente MP proposta por Haddad][mp].
+The sports betting houses have [taken over Brazilian football][clubes-aposta] in recent years. Their brands seem ubiquitous: advertising on TV and the internet, sponsorships on uniforms, billboards. Interestingly, until very recently, these companies benefited from regulatory and tax loopholes that provided additional incentives for the proliferation of their activity - a situation that should be (at least partially) addressed with an [executive order by Minister Haddad][mp].
 
 <!--more-->
 
 Mas o que está por trás do interesse de tantos agentes em mediar apostas esportivas? Quais são os fundamentos da lucratividade dessa atividade? Apesar de nunca ter apostado em resultados esportivos (com exceção de uma pizza que tive de pagar para meu grande amigo Artur S. após a vitória da Itália na Eurocopa de 2020), pretendo apresentar algumas reflexões sobre a matemática das apostas.
 
-1) **Funcionamento das apostas no Brasil**
+But what is behind the interest of so many agents in mediating sports bets? What are the fundamentals of the profitability of this activity? In this article, I intend to present some reflections on the mathematics and economics of sports betting. Although I am using the term *sports*, I should add that I will focus on football betting. Additionally, I will discuss the "standard" bets (i.e. betting on who won the match) - which I assume to account for most of the money spent on those platforms.
 
-Para apostas no vencedor da partida, a casa precifica cotações para a vitória do mandante, visitante e empate. Por exemplo, suponha que a cotação do empate seja $$2.5$$. Caso o jogo termine em igualdade de placar, para cada <code>$</code>
-1 colocado nesse resultado, o apostador receberá <code>$</code>
-2.50 (tendo, assim, uma rentabilidade de <code>$</code>
-1.50 - pois o real inicialmente apostado faz parte do pagamento). 
+1) **Explaining the odds**
 
-2) **Por que $$\frac{1}{\text{cotação}}$$ pode traduzir a probabilidade do evento?**
+For the standard bets, the house sets odds for the home team, the away team, and a draw. For example, suppose the odds for a draw are 2.5. If the game ends in a draw, for every R$1 placed on this result, the bettor will receive R$2.50 (yielding a return of R$1.50, as the initial R$1 is part of the payout).
 
-No nosso exemplo anterior, muitos sites indicarão que a probabilidade de empate implícita na cotação de 2.5 é $$\frac{1}{2.5} 
-= 40$$%. Mas como justificar essa conta?
+2) **Why can $$\frac{1}{\text{odds}}$$ represent the probability of the event?**
 
-Isso deriva de um argumento de *competição perfeita*. Em um mercado perfeitamente competitivo entre as casas de aposta, as cotações devem ser tais que o rendimento esperado para o apostador seja nulo (se as cotações apresentadas implicassem redimentos esperados positivos, a casa perderia dinheiro no longo prazo; se negativos, abririam oportunidade para que outras casas oferecessem melhores cotações e absorvessem *market share*). 
+In our previous example, many sites will indicate that the probability of a draw implied by the odds of 2.5 is $$\frac{1}{2.5} = 40\%$$.  But how is this calculation justified?
 
-Sejam $$R$$ a variável aleatória que representa o **rendimento** do apostador para cada <code>$</code>1 apostado e $k_{\text{evento}}$ a cotação de um determinado evento (e.g. vitória do mandante).
+My current understading is that this comes from a *perfect competition* argument. In a perfectly competitive market among betting houses, the odds should be set such that the expected return for the bettor is zero (if the presented odds implied positive expected returns, the house would lose money in the long run; if negative, other houses could offer better odds and capture market share).
+
+Let $$R$$ be the random variable representing the return of the bettor for each R$1 bet, and $k_{\text{event}}$ be the odds for a particular event (e.g., home team victory).
 
 $$
 R = \begin{cases}
-k_{\text{evento}}-1 & \text{se evento ocorre } (p_{\text{evento}}) \\
--1 & \text{se evento não ocorre } (1-p_{\text{evento}})
+k_{\text{event}}-1 & \text{if the event occurs } (\text{w/ probability} p_{\text{event}}) \\
+-1 & \text{if not } (\text{w/ probability} 1-p_{\text{event}})
 \end{cases}
 $$
 
 Então,
 
 $$
-\mathbb{E}(R) = (k_{\text{evento}}-1)p_{\text{evento}} + (-1)(1-p_{\text{evento}}) = 0 \implies p_{\text{evento}} = \frac{1}{k_{\text{evento}}}
+\mathbb{E}(R) = (k_{\text{event}}-1)p_{\text{event}} + (-1)(1-p_{\text{event}}) = 0 \implies p_{\text{event}} = \frac{1}{k_{\text{event}}}
 $$
 
-Ou seja, se a casa acredita que a probabilidade do evento é de $$50$$%, então, sob hipótese de competição perfeita, ela seria "forçada" (pela própria dinâmica do mercado) a oferecer uma cotação de $$k_{\text{evento}} = \frac{1}{p_{\text{evento}}} = \frac{1}{0.5} = 2$$. É evidente que esta é uma explicação simplificada, mas ajuda a entender o racional. Argumentos similares (e com maior grau de formalidade) podem ser encontrados em livros básicos de Microeconomia.
+In other words, if the house believes that the probability of the event is 50%, then, under perfect competition, it would be "forced" (by market dynamics) to offer odds of $$k_{\text{event}} = \frac{1}{p_{\text{event}}} = \frac{1}{0.5} = 2$$. This is a simplified explanation, but it helps to understand the rationale. Similar arguments (and with greater formalization) can be found in basic Microeconomics textbooks.
 
-3) **A hipótese de competição perfeita é válida na prática?**
+3) **Is the perfect competition hypothesis valid in practice?**
 
-Não. Não há competição perfeita nesse mercado (que parece mais uma espécie de oligopólio) e, ainda, há custos de operação que devem ser cobertos pela casa.
+No. There is no perfect competition in this market (which resembles more of an oligopoly), and there are operational costs that the house must cover.
 
-Dessa forma, $$\frac{1}{k_{\text{evento}}}$$ não representa a probabilidade implícita do evento estimada pela casa. Representa, no máximo, uma *proxy* dessa quantidade.
+Thus, $$\frac{1}{k_{\text{event}}}$$ does not represent the house's estimated implicit probability of the event. At most, it is a *proxy* for this quantity.
 
-Uma evidência adicional dessa afirmação é que a soma $$\frac{1}{k_{\text{Mandante}}} + \frac{1}{k_{\text{Visitante}}} + \frac{1}{k_{\text{Empate}}}$$ é usualmente maior que $$1$$. Por exemplo, consultando as cotações de uma famosa plataforma para o majestoso clássico entre Sydney Olympic vs Sydney United, temos as seguintes cotações: $$4.00$$ (vitória Sydney Olympic), $$1.80$$ (Sydney United) e $$3.60$$ (empate). Ora, $$\frac{1}{4.00} + \frac{1}{1.80} + \frac{1}{3.60} = 108.3$$%. A soma das "probabilidades" é superior a $$100$$%.
+An additional piece of evidence for this claim is that the sum $$\frac{1}{k_{\text{Home}}} + \frac{1}{k_{\text{Away}}} + \frac{1}{k_{\text{Draw}}}$$ is usually greater than 1. For example, looking at the odds from a popular platform for the grand match between Sydney Olympic vs. Sydney United, we have the following odds: 4.00 (Sydney Olympic win), 1.80 (Sydney United win), and 3.60 (draw). Note that $$\frac{1}{4.00} + \frac{1}{1.80} + \frac{1}{3.60} = 108.3$$%. The sum of the "probabilities" exceeds 100%.
 
-4) **Por que a soma é superior a 1?**
+4) **Why does the sum exceed 1?**
 
-Este é o ingrediente que permite as casas garantirem lucros que independem do resultado final da partida. Sejam $$k_{i}$$ as cotações de cada evento e $$V_{i}$$ os respectivos valores apostados. O "lucro operacional" da plataforma será dado pelo que ela arrecada de apostas derrotadas menos o que ela precisa pagar aos vencedores.
+This is the mechanism that allows houses to ensure profits regardless of the final match result. Let $$k_{i}$$ be the odds for each event, and $$V_{i}$$ the respective amounts bet. The platform's "operational profit" will be the amount collected from losing bets minus the amount paid to the winners.
 
-No caso da **vitória do mandante**, o *bottom line* operacional da plataforma é dado por:
-
-$$
-V_{\text{Visitante}} + V_{\text{Empate}} - (k_{\text{Mandante}}-1)V_{\text{Mandante}}
-$$
-
-Analogamente, em caso de **vitória do visitante**:
+In the case of a **home win**, the platform's operational bottom line is given by:
 
 $$
-V_{\text{Mandante}} + V_{\text{Empate}} - (k_{\text{Visitante}}-1)V_{\text{Visitante}}
+V_{\text{Away}} + V_{\text{Draw}} - (k_{\text{Home}}-1)V_{\text{Home}}
 $$
 
-Finalmente, se a partida termina **empatada**:
+Similarly, in the case of an **away win**:
 
 $$
-V_{\text{Mandante}} + V_{\text{Visitante}} - (k_{\text{Empate}}-1)V_{\text{Empate}}
+V_{\text{Home}} + V_{\text{Draw}} - (k_{\text{Away}}-1)V_{\text{Away}}
 $$
 
-Para que a casa de apostas tenha lucro em qualquer caso, basta que as três expressões sejam positivas.
+Finally, if the match ends in a **draw**:
+
+$$
+V_{\text{Home}} + V_{\text{Away}} - (k_{\text{Draw}}-1)V_{\text{Draw}}
+$$
+
+For the betting house to profit in any scenario, all three expressions must be positive.
 
 $$
 \begin{cases}
-V_{\text{Visitante}} + V_{\text{Empate}} - (k_{\text{Mandante}}-1)V_{\text{Mandante}} > 0  \\
-V_{\text{Mandante}} + V_{\text{Empate}} - (k_{\text{Visitante}}-1)V_{\text{Visitante}} > 0 \\
-V_{\text{Mandante}} + V_{\text{Visitante}} - (k_{\text{Empate}}-1)V_{\text{Empate}} > 0
+V_{\text{Away}} + V_{\text{Draw}} - (k_{\text{Home}}-1)V_{\text{Home}} > 0  \\
+V_{\text{Home}} + V_{\text{Draw}} - (k_{\text{Away}}-1)V_{\text{Away}} > 0 \\
+V_{\text{Home}} + V_{\text{Away}} - (k_{\text{Draw}}-1)V_{\text{Draw}} > 0
 \end{cases}
 \implies 
 \begin{cases}
-V_{\text{Mandante}} < \frac{V_{\text{Visitante}} + V_{\text{Empate}}}{k_{\text{Mandante}}-1}  \\
-V_{\text{Visitante}} < \frac{V_{\text{Mandante}} + V_{\text{Empate}}}{k_{\text{Visitante}}-1} \\
-V_{\text{Empate}} < \frac{V_{\text{Mandante}} + V_{\text{Visitante}}}{k_{\text{Empate}}-1}
+V_{\text{Home}} < \frac{V_{\text{Away}} + V_{\text{Draw}}}{k_{\text{Home}}-1}  \\
+V_{\text{Away}} < \frac{V_{\text{Home}} + V_{\text{Draw}}}{k_{\text{Away}}-1} \\
+V_{\text{Draw}} < \frac{V_{\text{Home}} + V_{\text{Away}}}{k_{\text{Draw}}-1}
 \end{cases}
 $$
 
-Seja $$V$$ o volume financeiro total de apostas para aquela partida, ou seja, $$V = V_{\text{Mandante}} + V_{\text{Visitante}} + V_{\text{Empate}}$$. As inequações anteriores podem ser reescritas como (lembrando que $$k_{i} = \frac{1}{p_i}$$):
+Let $$V$$ be the total financial volume of bets for that match, i.e., $$V = V_{\text{Home}} + V_{\text{Away}} + V_{\text{Draw}}$$. The previous inequalities can be rewritten as (remembering that $$k_{i} = \frac{1}{p_i}$$):
 
 $$
 V_{i} < \frac{V - V_{i}}{k_{i} - 1} \implies V_{i}k_{i} < V \implies V_{i} < \frac{V}{k_{i}} \implies V_{i} < p_{i}V
 $$
 
-Dessa forma, dado um conjunto de cotações, basta encontrarmos $$V_{\text{Mandante}}$$, $$V_{\text{Visitante}}$$ e $$V_{\text{Empate}}$$ tais que:
+Thus, given a set of odds, we need to find $$V_{\text{Home}}$$, $$V_{\text{Away}}$$ e $$V_{\text{Draw}}$$ such that:
 
 $$
 \begin{cases}
@@ -106,19 +104,17 @@ V_{i} < p_{i}V \\
 \end{cases}
 $$
 
-O fato de que $$\sum_{i} p_i > 1$$ faz com que o sistema tenha solução para qualquer volume financeiro $$V$$ (isto fica como exercício para o leitor). Portanto, seja qual for o resultado da partida, se a distribuição das apostas estiver coerente com as restrições acima, a casa ganhará dinheiro.
+The fact that $$\sum_{i} p_i > 1$$ ensures that the system has a solution for any financial volume $$V$$ (this is left as an exercise for the reader). Therefore, regardless of the match outcome, if the distribution of bets respects the above constraints, the house will make money.
 
-Obviamente, o leitor atento certamente percebeu que estamos sendo pouco precisos com os termos contábeis desta seção. As casas incorrem múltiplos custos operacionais (custos de servidores, equipes de programadores, cientistas de dados, etc), e despesas (e.g. *marketing*) e, dessa forma, o que temos chamado de *lucro*, não o é de fato.
+Of course, attentive readers will notice that we are being somewhat imprecise with the accounting terms in this section. Houses incur multiple operational costs (server costs, teams of programmers, data scientists, etc.) and expenses (e.g., marketing), so what we have been calling profit is not quite that.
 
-Além disso, no raciocício acima, fixamos as cotações e assumimos que a casa é capaz de ajustar os volumes de cada aposta. Na realidade, este processo ocorre de maneira dinâmica, com a plataforma oferecendo cotações mais ou menos vantajosas ao longo do tempo para ajustar o portfólio de apostas.
+Moreover, in the reasoning above, we fixed the odds and assumed the house could adjust the volume of each bet. In reality, this process occurs dynamically, with the platform offering more or less advantageous odds over time to balance the bet portfolio.
    
-5) **É possível bater o mercado (i.e. obter retornos positivos interesantes de maneira consistente)?**
+5) **Is it possible to beat the market (i.e., consistently achieve positive returns)?**
 
-Se eu soubesse a resposta dessa pergunta, provavelmente estaria tomando um *mojito* em uma praia do Caribe e não escrevendo um post de um blog que (quase) ninguém lê. Em teoria, alguém que dispõe de um modelo preditivo de altíssima acurácia (em outras palavras, cujas estimativas das distribuições de probabilidade dos resultados seja, de fato, muito próximas das reais) poderia apostar em jogos em que haja discordância em relação às "probabilidades implícitas" nas cotações. Ou seja, se a casa precifica uma cotação cuja probabilidade implícita de vitória do mandante é de 30% e o seu poderoso modelo indica 90%, deve valer a pena comprar esta aposta. No longo prazo, esta estratégia deve quase certamente retornar lucros consistentes. No entanto, é evidente que obter um tal sistema preditivo é extremamente complicado. Lembre-se que as principais casas de apostas empregam vastas equipes de cientistas de dados trabalhando nos modelos de cotação e, portanto, "superá-los" não é uma tarefa simples.
+This is highly unlikely. Outperforming the platforms' predictive models is extremely hard and, even in the unlikely scenario where you find one, betting houses seem to be able to hinder some strategies as soon as they are proven capable of consistently generating positive returns (as showed in [this paper][paper]).
 
-Existem, porém, alternativas que não dependem da criação de sistemas proprietários. [Kaunitz, Zhong & Kreiner (2017)][paper] apresentam uma estratégia baseada na comparação de cotações providas por várias plataformas. O ponto mais interessante do artigo, entretanto, é o fato de que as casas começaram a dificultar as apostas dos pesquisadores assim que a estratégia se provou capaz de originar retornos positivos de maneira consistente. Isso mostra que as plataformas exercem uma discriminação operacional contra apostadores recorrentemente vitoriosos.
-
-Quem faz dinheiro com apostas esportivas são as casas, não os apostadores. Afinal, o patrocínio master do seu clube é provavelmente uma *bet* qualquer e não o nome do seu vizinho.
+Your football club is sponsored by a betting company, not by your neighboor. So my recommendation is to always remember who is really making the money in this activity before falling into the illusion of getting rich quickly.
 
 
 [clubes-aposta]: https://www.uol.com.br/esporte/futebol/ultimas-noticias/2023/03/31/patrocinios-de-sites-de-apostas-a-clubes-da-serie-a-batem-r-330-mi-por-ano.htm
