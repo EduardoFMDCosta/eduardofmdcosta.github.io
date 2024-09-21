@@ -106,7 +106,7 @@ The fact that $$\sum_{i} p_i > 1$$ ensures that the system has a solution for an
 
 Of course, attentive readers will notice that we are being somewhat imprecise with the accounting terms in this section. Houses incur multiple operational costs (server costs, teams of programmers, data scientists, etc.) and expenses (e.g., marketing), so what we have been calling profit is not quite that.
 
-Moreover, in the reasoning above, we fixed the odds and assumed the house could adjust the volume of each bet. In reality, this process occurs dynamically, with the platform offering more or less advantageous odds over time to balance the bet portfolio.
+Moreover, in the reasoning above, we fixed the odds and assumed the house could adjust the volume of each bet. In reality, this process occurs dynamically, with the platform offering more or less advantageous odds over time to balance the bet distribution.
    
 5) **Is it possible to beat the market (i.e., consistently achieve positive returns)?**
 
