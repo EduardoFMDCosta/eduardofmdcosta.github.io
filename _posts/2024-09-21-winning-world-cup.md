@@ -10,7 +10,7 @@ related_posts: false
 
 The last time Brazil lifted the World Cup trophy was over two decades ago. Since then, we have endured a series of painful eliminations, often at the hands of European teams - including the unforgettable 7-1 loss to Germany on home soil in 2014. This has been raising doubts about Brazil's ability to obtain the much-dreamed-of sixth star.
 
-This article serves as a reminder of an important truth: winning a World Cup is incredibly difficult and it usually takes time. Although I do believe that [Brazil's relative prominence in the international football scene tends to diminish][article-dominance], there is no need for over pessimism concerning our capacity to win again. Chances are that our time will come again.
+This article serves as a reminder of an important truth: winning a World Cup is incredibly difficult and it usually takes time. Although I believe that [Brazil's relative prominence in the international football scene tends to diminish][article-dominance], there is no need for over-pessimism concerning our capacity to win once more. Chances are that our time will come again.
 
 <!--more-->
 
