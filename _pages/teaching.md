@@ -22,6 +22,11 @@ nav_order: 3
       <td>TU Delft, 2024</td>
     </tr>
     <tr>
+      <th scope="row">Fundamentals of AI (Master)</th>
+      <td><a href="https://studyguide.tudelft.nl/a101_displayCourse.do?course_id=70627">Course catalog</a></td>
+      <td>TU Delft, 2024</td>
+    </tr>
+    <tr>
       <th scope="row">Introduction to Stochastic Processes (Bachelor)</th>
       <td><a href="https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=MAE0312&codcur=45062&codhab=0">Course catalog</a></td>
       <td>USP, 2020</td>
