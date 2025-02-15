@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-My [first paper][paper-cdc] was accepted to CDC 2024 in Milan!
+My [first paper][paper-cdc] was accepted to CDC 2024 in Milan.
 
 [paper-cdc]: https://arxiv.org/abs/2403.15626
