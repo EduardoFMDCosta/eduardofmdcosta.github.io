@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started PhD at TU Delft under the supervision of Professor Luca Laurenti. :sparkles:
+Started PhD at TU Delft under the supervision of Professor Luca Laurenti.
