@@ -19,12 +19,12 @@ nav_order: 3
     <tr>
       <th scope="row">Machine Learning for Systems and Control (Master)</th>
       <td><a href="https://www.studyguide.tudelft.nl/a101_displayCourse.do?course_id=66972">Course catalog</a></td>
-      <td>TU Delft, 2024</td>
+      <td>TU Delft, 2024/2025</td>
     </tr>
     <tr>
       <th scope="row">Fundamentals of AI (Master)</th>
       <td><a href="https://studyguide.tudelft.nl/a101_displayCourse.do?course_id=70627">Course catalog</a></td>
-      <td>TU Delft, 2024</td>
+      <td>TU Delft, 2024/2025</td>
     </tr>
     <tr>
       <th scope="row">Introduction to Stochastic Processes (Bachelor)</th>
