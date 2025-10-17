@@ -7,7 +7,7 @@ nav: false
 
 | Type | Name |
 | ----------- | ----------- |
-| Journal | IEEE Control Systems Letters (L-CSS |
+| Journal | IEEE Control Systems Letters (L-CSS) |
 | Journal | Science of Computer Programming (SCICO) |
 | Conference | Conference on Decision and Control (CDC) |
 | Conference | European Conference on Artificial Intelligence (ECAI) |
