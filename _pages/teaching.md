@@ -10,10 +10,11 @@ nav_order: 3
 
 | Semester | Course |
 | ----------- | ----------- |
-| Fall 2024 | [SC42165](https://www.studyguide.tudelft.nl/a101_displayCourse.do?course_id=66972) - Machine Learning for Systems and Control |
-| Fall 2024 | [IFEEMCS520100](https://studyguide.tudelft.nl/a101_displayCourse.do?course_id=70627) - Fundamentals of Artificial Intelligence |
-| Fall 2023 | [SC42165](https://www.studyguide.tudelft.nl/a101_displayCourse.do?course_id=66972) - Machine Learning for Systems and Control |
-| Fall 2023 | [IFEEMCS520100](https://studyguide.tudelft.nl/a101_displayCourse.do?course_id=70627) - Fundamentals of Artificial Intelligence |
+| Fall 2025 | [SC42165](https://www.studiegids.tudelft.nl/courses/study-guide/educations/19221) - Machine Learning for Systems and Control |
+| Fall 2024 | [SC42165](https://www.studiegids.tudelft.nl/courses/study-guide/educations/19221) - Machine Learning for Systems and Control |
+| Fall 2024 | [IFEEMCS520100](https://www.tudelft.nl/ai/onderwijs/ai-onderwijs/fundamentals-of-artificial-intelligence-programme-2024-2025) - Fundamentals of Artificial Intelligence |
+| Fall 2023 | [SC42165](https://www.studiegids.tudelft.nl/courses/study-guide/educations/19221) - Machine Learning for Systems and Control |
+| Fall 2023 | [IFEEMCS520100](https://www.tudelft.nl/ai/onderwijs/ai-onderwijs/fundamentals-of-artificial-intelligence-programme-2024-2025) - Fundamentals of Artificial Intelligence |
 
 <br/><br/>
 
