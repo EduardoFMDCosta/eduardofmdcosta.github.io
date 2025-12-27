@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.tudelft.nl/3me/over/afdelingen/delft-center-for-systems-and-control'>TU Delft, DCSC</a>
+subtitle: <a href='https://www.tudelft.nl/3me/over/afdelingen/delft-center-for-systems-and-control'>TU Delft, Delft Center for Systems and Control</a>
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   more_info: >
     
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
