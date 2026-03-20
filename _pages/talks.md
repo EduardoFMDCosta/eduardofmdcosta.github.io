@@ -7,7 +7,8 @@ nav: false
 
 | Year | Host |
 | ----------- | ----------- |
-| 2025 | Conference on Decision and Control (Stochastic Planning and Control of Dynamical Systems: Bridging Theory and Applications), Rio de Janeiro |
-| 2025 | ARIA Systems at CU Boulder, Online |
-| 2025 | Cyber-Physical Systems lab at UCLouvain, Louvain-La-Neuve |
-| 2024 | Conference on Decision and Control, Milan |
+| 2026 | Statistical Techniques for Verification and Control group at TU Delft (Delft, Netherlands) |
+| 2025 | Conference on Decision and Control (Rio de Janeiro, Brazil) |
+| 2025 | ARIA Systems at Colorado University at Boulder (Online) |
+| 2025 | Cyber-Physical Systems lab at UCLouvain (Louvain-La-Neuve, Belgium) |
+| 2024 | Conference on Decision and Control (Milan, Italy) |
