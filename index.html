@@ -87,6 +87,60 @@
                 </p>
               </td>
             </tr>
+
+            <tr bgcolor="#ffffd0">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/uncertainty-propagation-guarantees-2025.jpg" width="160" alt="Efficient uncertainty propagation with guarantees teaser">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Efficient Uncertainty Propagation with Guarantees in Wasserstein Distance</span>
+                <br>
+                Eduardo Figueiredo, Steven Adams, Peyman Mohajerin Esfahani, Luca Laurenti
+                <br>
+                <em>In review</em>, 2025
+                <br>
+                <a href="https://arxiv.org/abs/2506.08689">arXiv</a>
+                <p>
+                  In this paper, we consider the problem of propagating an uncertain distribution by a possibly non-linear function and quantifying the resulting uncertainty. We measure the uncertainty using the Wasserstein distance, and for a given input set of distributions close in the Wasserstein distance, we compute a set of distributions centered at a discrete distribution that is guaranteed to contain the pushforward of any distribution in the input set. Our approach is based on approximating a nominal distribution from the input set to a discrete support distribution for which the exact computation of the pushforward distribution is tractable, thus guaranteeing computational efficiency to our approach. Then, we rely on results from semi-discrete optimal transport and distributional robust optimization to show that for any epsilon > 0 the error introduced by our approach can be made smaller than epsilon. Critically, in the context of dynamical systems, we show how our results allow one to efficiently approximate the distribution of a stochastic dynamical system with a discrete support distribution for a possibly infinite horizon while bounding the resulting approximation error. We empirically investigate the effectiveness of our framework on various benchmarks, including a 10-D non-linear system, showing the effectiveness of our approach in quantifying uncertainty in linear and non-linear stochastic systems.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/uncertainty-propagation-cdc-2025.jpg" width="160" alt="Uncertainty propagation CDC 2025 teaser">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Efficient Uncertainty Propagation with Guarantees in Wasserstein Distance</span>
+                <br>
+                Steven Adams, Eduardo Figueiredo, Luca Laurenti
+                <br>
+                <em>IEEE Conference on Decision and Control</em>, 2025
+                <br>
+                <a href="https://arxiv.org/abs/2505.11219">arXiv</a>
+                <p>
+                  In this paper, we consider discrete-time nonlinear stochastic dynamical systems with additive process noise in which both the initial state and noise distributions are uncertain. Our goal is to quantify how the uncertainty in these distributions is propagated by the system dynamics for possibly infinite time steps. In particular, we model the uncertainty over input and noise as ambiguity sets of probability distributions close in the rho-Wasserstein distance and aim to quantify how these sets evolve over time. Our approach relies on results from quantization theory, optimal transport, and stochastic optimization to construct ambiguity sets of distributions centered at mixture of Gaussian distributions that are guaranteed to contain the true sets for both finite and infinite prediction time horizons. We empirically evaluate the effectiveness of our framework in various benchmarks from the control and machine learning literature, showing how our approach can efficiently and formally quantify the uncertainty in linear and non-linear stochastic dynamical systems.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/uncertainty-propagation-mixture-models-2024.jpg" width="160" alt="Uncertainty propagation mixture models teaser">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Uncertainty Propagation in Stochastic Systems via Mixture Models with Error Quantification</span>
+                <br>
+                Eduardo Figueiredo, Andrea Patane, Morteza Lahijanian, Luca Laurenti
+                <br>
+                <em>IEEE Conference on Decision and Control</em>, 2024
+                <br>
+                <a href="https://arxiv.org/abs/2403.15626">arXiv</a>
+                <p>
+                  Uncertainty propagation in non-linear dynamical systems has become a key problem in various fields including control theory and machine learning. In this work, we focus on discrete-time non-linear stochastic dynamical systems. We present a novel approach to approximate the distribution of the system over a given finite time horizon with a mixture of distributions. The key novelty of our approach is that it not only provides tractable approximations for the distribution of a non-linear stochastic system but also comes with formal guarantees of correctness. In particular, we consider the Total Variation (TV) distance to quantify the distance between two distributions and derive an upper bound on the TV between the distribution of the original system and the approximating mixture distribution derived from our framework. We show that in various cases of interest, including in the case of Gaussian noise, the resulting bound can be efficiently computed in closed form. This allows us to quantify the correctness of the approximation and to optimize the parameters of the resulting mixture distribution to minimize such distance. The effectiveness of our approach is illustrated on several benchmarks from the control community.
+                </p>
+              </td>
+            </tr>
           </tbody></table>
 
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
