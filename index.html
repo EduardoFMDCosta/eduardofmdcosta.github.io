@@ -53,7 +53,10 @@
 
           <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr bgcolor="#ffffd0">
-              <td style="padding:8px;width:100%;vertical-align:middle">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/efficient-distribution-learning.jpg" width="160" alt="Efficient Distribution Learning teaser">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Efficient Distribution Learning with Error Bounds in Wasserstein Distance</span>
                 <br>
                 Eduardo Figueiredo, Steven Adams, Luca Laurenti
@@ -61,15 +64,17 @@
                 <em>In review</em>, 2026
                 <br>
                 <a href="https://arxiv.org/abs/2602.08063">arXiv</a>
-                <p></p>
                 <p>
-                  We develop a new algorithmic and theoretical framework to approximate an unknown probability distribution from finite samples while bounding the Wasserstein error with high confidence. The method combines optimal transport, nonlinear optimization, and concentration inequalities, and yields a tractable mixed-integer linear program whose size depends only on the support of the approximate distribution. Across benchmarks, the approach returns smaller supports and tighter bounds than comparable state-of-the-art methods.
+                  The Wasserstein distance has emerged as a key metric to quantify distances between probability distributions, with applications in various fields, including machine learning, control theory, decision theory, and biological systems. Consequently, learning an unknown distribution with non-asymptotic and easy-to-compute error bounds in Wasserstein distance has become a fundamental problem in many fields. In this paper, we devise a novel algorithmic and theoretical framework to approximate an unknown probability distribution P from a finite set of samples by an approximate discrete distribution Pb while bounding the Wasserstein distance between P and Pb. Our framework leverages optimal transport, nonlinear optimization, and concentration inequalities. In particular, we show that, even if P is unknown, the Wasserstein distance between P and Pb can be efficiently bounded with high confidence by solving a tractable optimization problem (a mixed integer linear program) of a size that only depends on the size of the support of Pb. This enables us to develop intelligent clustering algorithms to optimally find the support of Pb while minimizing the Wasserstein distance error. On a set of benchmarks, we demonstrate that our approach outperforms state-ofthe-art comparable methods by generally returning approximating distributions with substantially smaller support and tighter error bounds.
                 </p>
               </td>
             </tr>
 
             <tr>
-              <td style="padding:8px;width:100%;vertical-align:middle">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/randomized-smoothing-trajectory.jpg" width="160" alt="Randomized smoothing trajectory prediction teaser">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Evaluating randomized smoothing as a defense against adversarial attacks in trajectory prediction</span>
                 <br>
                 Julian F. Schumann, Eduardo Figueiredo, Frederik Baymler Mathiesen, Luca Laurenti, Jens Kober, Arkady Zgonnikov
@@ -77,9 +82,8 @@
                 <em>IEEE International Conference on Intelligent Transportation Systems</em>, 2026
                 <br>
                 <a href="https://arxiv.org/abs/2603.10821">arXiv</a>
-                <p></p>
                 <p>
-                  This work introduces and evaluates a randomized smoothing defense tailored to trajectory prediction models under adversarial perturbations. Extensive experiments show consistent robustness improvements across multiple base models and datasets. The method improves adversarial resilience without reducing non-adversarial prediction accuracy, while remaining simple and computationally inexpensive.
+                  Accurate and robust trajectory prediction is essential for safe and efficient autonomous driving, yet recent work has shown that even state-of-the-art prediction models are highly vulnerable to inputs being mildly perturbed by adversarial attacks. Although model vulnerabilities to such attacks have been studied, work on effective countermeasures remains limited. In this work, we develop and evaluate a new defense mechanism for trajectory prediction models based on randomized smoothing - an approach previously applied successfully in other domains. We evaluate its ability to improve model robustness through a series of experiments that test different strategies of randomized smoothing. We show that our approach can consistently improve prediction robustness of multiple base trajectory prediction models in various datasets without compromising accuracy in non-adversarial settings. Our results demonstrate that randomized smoothing offers a simple and computationally inexpensive technique for mitigating adversarial attacks in trajectory prediction.
                 </p>
               </td>
             </tr>
