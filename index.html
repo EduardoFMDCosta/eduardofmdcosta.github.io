@@ -54,7 +54,7 @@
           <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr bgcolor="#ffffd0">
               <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/clustered_smoothing.jpg" width="160" alt="Efficient Distribution Learning teaser">
+                <img src="images/clustered_smoothing.png" width="160" alt="Clustered Smoothing teaser">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Clustered Randomized Smoothing for Stochastic Prediction Functions</span>
@@ -65,7 +65,7 @@
                 <br>
                 <a href="https://arxiv.org/abs/2608.12037">arXiv</a>
                 <p>
-                  Modern stochastic predictors can model rich, multi-modal outcome distributions. However, this expressive power comes with challenges in ensuring robust predictions − a critical requirement in safety-critical domains. Randomized smoothing is a leading technique for improving robustness, particularly against adversarial perturbations. Yet, in stochastic multi-modal regression settings, randomized smoothing often fails due to mode collapse, yielding averaged predictions that do not reflect the underlying distribution. To address this limitation, we propose clustered α-smoothing, a framework that (1) partitions noisy samples using an arbitrary clustering algorithm, (2) applies α-smoothing locally within each cluster, and (3) combines the resulting predictions into a mixture distribution. By interpreting the smoothing distribution as a mixture of α-smoothers, we derive a lower bound on the probability that the smoothed prediction lies within a union of compact regions corresponding to distinct modes. We empirically evaluate our framework on two benchmarks, demonstrating substantial improvements over state-of-the-art methods. In stochastic trajectory prediction on a driving simulator dataset, our approach achieves, on average, a 27% lower Wasserstein distance to the ground-truth distribution compared to α-smoothing. In quadrotor control, where modes correspond to distinct feasible paths to a target, our method reduces the collision rate by 81% relative to the state-of-the-art randomized smoothing.
+                  Modern stochastic predictors can model rich, multi-modal outcome distributions. However, this expressive power comes with challenges in ensuring robust predictions − a critical requirement in safety-critical domains. Randomized smoothing is a leading technique for improving robustness, particularly against adversarial perturbations. Yet, in stochastic multi-modal regression settings, randomized smoothing often fails due to mode collapse, yielding averaged predictions that do not reflect the underlying distribution. To address this limitation, we propose clustered α-smoothing, a framework that (1) partitions noisy samples using an arbitrary clustering algorithm, (2) applies α-smoothing locally within each cluster, and (3) combines the resulting predictions into a mixture distribution.
                 </p>
               </td>
             </tr>
